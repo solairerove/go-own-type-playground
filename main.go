@@ -17,4 +17,8 @@ func main() {
 	y = 42
 	fmt.Printf("%v\t", y)
 	fmt.Printf("%T\n", y)
+
+	x = int(y)
+	fmt.Printf("%v\t", x)
+	fmt.Printf("%T\n", x)
 }
